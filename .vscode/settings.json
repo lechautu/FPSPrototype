@@ -66,5 +66,5 @@
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj"
     },
-    "dotnet.defaultSolution": "DeadTargetPrototype.slnx"
+    "dotnet.defaultSolution": "FPSPrototype.slnx"
 }
