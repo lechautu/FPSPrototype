@@ -114,3 +114,4 @@ These limitations are **by design**, to keep the prototype focused on core shoot
 
 ## Purpose
 This prototype serves as a **technical showcase** of FPS gameplay understanding and performance-oriented Unity development, rather than a full game.
+Video link: https://drive.google.com/file/d/1GWNVwjpVO58qvQQynSRdc9506CQwVOU_/view?usp=sharing
