@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a76eb0544b5db4148b6561310d06e373
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 21187
+  packageName: Realistic FPS Pack ( Muzzleflash/Impacts)
+  packageVersion: 1.2
+  assetPath: Assets/Assets_FPS_Effects/materials/surfaces/water.mat
+  uploadId: 39777

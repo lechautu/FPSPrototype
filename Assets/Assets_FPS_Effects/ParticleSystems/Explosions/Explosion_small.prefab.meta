@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a8dadda757914fa449702cc7b9b32a0e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 21187
+  packageName: Realistic FPS Pack ( Muzzleflash/Impacts)
+  packageVersion: 1.2
+  assetPath: Assets/Assets_FPS_Effects/ParticleSystems/Explosions/Explosion_small.prefab
+  uploadId: 39777

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e8709a028677ecc43a55eb42b8852ef0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 21187
+  packageName: Realistic FPS Pack ( Muzzleflash/Impacts)
+  packageVersion: 1.2
+  assetPath: Assets/Assets_FPS_Effects/materials/special_fx/sparks/vertical_sparks-3.mat
+  uploadId: 39777

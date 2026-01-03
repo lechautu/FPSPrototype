@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5779411851045624305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6940034992169618432}
+  - component: {fileID: 4687910645431405157}
+  - component: {fileID: 7516074676624165405}
+  - component: {fileID: 191562118154835881}
+  - component: {fileID: 6804683566312898708}
+  - component: {fileID: 6732800112525772060}
+  - component: {fileID: 7835113008270836903}
+  - component: {fileID: 8176794260778828760}
+  - component: {fileID: 8100541625390626470}
+  - component: {fileID: 3031725890901241403}
+  - component: {fileID: 8563213917498234485}
+  m_Layer: 0
+  m_Name: GameRoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6940034992169618432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5779411851045624305}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4687910645431405157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5779411851045624305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74a20b644cd3ff34d87fe0735f10f315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameLoop
+  inputService: {fileID: 7516074676624165405}
+  cameraRig: {fileID: 191562118154835881}
+  weaponController: {fileID: 6732800112525772060}
+  enemySystem: {fileID: 7835113008270836903}
+  enemySpawner: {fileID: 8176794260778828760}
+  pool: {fileID: 8100541625390626470}
+  waveDirector: {fileID: 8563213917498234485}
+  stressSpawnCount: 20
+  enemyKey: Zombie
+--- !u!114 &7516074676624165405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5779411851045624305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67065ded0713e8049b0169347ff27b6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InputService
+  sensitivityX: 0.12
+  sensitivityY: 0.12
+--- !u!114 &191562118154835881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5779411851045624305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58db15d8a3af8684ead5d576be367b41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraRig
+  yawPivot: {fileID: 0}
+  pitchPivot: {fileID: 0}
+  cam: {fileID: 0}
+  pitchMin: -55
+  pitchMax: 55
+  recoilReturnSpeed: 18
+  recoilDamping: 22
+--- !u!114 &6804683566312898708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5779411851045624305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 628f3edd1acabb1448cfaf7c91a7b5d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CombatSystem
+  hitMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  maxHits: 8
+--- !u!114 &6732800112525772060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5779411851045624305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d251917c985fb8b4f9720357da74a135, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponController
+  config: {fileID: 11400000, guid: b22cc62556732f1429ade324e79d31ff, type: 2}
+  cameraRig: {fileID: 191562118154835881}
+  combatSystem: {fileID: 6804683566312898708}
+  enemySystem: {fileID: 7835113008270836903}
+  vfxSystem: {fileID: 3031725890901241403}
+  hitMarkerUI: {fileID: 0}
+  headshotMultiplier: 2
+--- !u!114 &7835113008270836903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5779411851045624305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a0f61214d9b434c9714032c30d7f33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemySystem
+  playerTarget: {fileID: 0}
+  stopDistance: 1.2
+  tickChunkSize: 64
+--- !u!114 &8176794260778828760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5779411851045624305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6816395e452bb394983cc6bbc1c39451, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemySpawner
+  pool: {fileID: 8100541625390626470}
+  enemySystem: {fileID: 7835113008270836903}
+  enemyKey: Zombie
+  initialWaveCount: 5
+  spawnRadius: 14
+  spawnArcDegrees: 90
+  hp: 60
+  speed: 1.2
+  attackRange: 1.1
+  attackCooldown: 1
+--- !u!114 &8100541625390626470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5779411851045624305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a51a73fe9b5ad474591ff699e104f888, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PoolManager
+  pools:
+  - key: Zombie
+    prefab: {fileID: 3935403846385308496, guid: 9e0f948fd203b0846b1216f5d7df8db1, type: 3}
+    prewarm: 10
+  - key: Blood
+    prefab: {fileID: 100000, guid: ba52805fd6eec8247b4d8496058700d5, type: 3}
+    prewarm: 10
+  - key: Impact
+    prefab: {fileID: 7089091639124516104, guid: 0035157cff7c25c40965acff70b86653, type: 3}
+    prewarm: 10
+--- !u!114 &3031725890901241403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5779411851045624305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5763d56169840184c83991122b64be06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VFXSystem
+  pool: {fileID: 8100541625390626470}
+  impactKey: Impact
+  bloodKey: Blood
+  impactLifetime: 1.2
+  bloodLifetime: 1
+--- !u!114 &8563213917498234485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5779411851045624305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae089c8d9433b3a40b4065f5b89fda01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WaveDirector
+  enemySystem: {fileID: 7835113008270836903}
+  spawner: {fileID: 8176794260778828760}
+  startCount: 30
+  addPerWave: 10
+  timeBetweenWaves: 2
+  hpMulPerWave: 1.1
+  speedMulPerWave: 1.03

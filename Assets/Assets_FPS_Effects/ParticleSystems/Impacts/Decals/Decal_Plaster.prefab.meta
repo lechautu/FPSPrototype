@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6e182a15450f81347862110563f1d541
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 21187
+  packageName: Realistic FPS Pack ( Muzzleflash/Impacts)
+  packageVersion: 1.2
+  assetPath: Assets/Assets_FPS_Effects/ParticleSystems/Impacts/Decals/Decal_Plaster.prefab
+  uploadId: 39777

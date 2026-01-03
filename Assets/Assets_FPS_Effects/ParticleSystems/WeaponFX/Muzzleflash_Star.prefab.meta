@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d9554d8af43d40846969c975137a4565
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 21187
+  packageName: Realistic FPS Pack ( Muzzleflash/Impacts)
+  packageVersion: 1.2
+  assetPath: Assets/Assets_FPS_Effects/ParticleSystems/WeaponFX/Muzzleflash_Star.prefab
+  uploadId: 39777

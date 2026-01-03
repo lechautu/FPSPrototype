@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a5d226920b6c6a843800e530c6342ecc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 21187
+  packageName: Realistic FPS Pack ( Muzzleflash/Impacts)
+  packageVersion: 1.2
+  assetPath: Assets/Assets_FPS_Effects/ParticleSystems/Impacts/Foliage_BulletImpact.prefab
+  uploadId: 39777

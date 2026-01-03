@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0291c242833b7fd4e90e36105cd2988b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 21187
+  packageName: Realistic FPS Pack ( Muzzleflash/Impacts)
+  packageVersion: 1.2
+  assetPath: Assets/Assets_FPS_Effects/materials/physics_materials/Stone.physicMaterial
+  uploadId: 39777

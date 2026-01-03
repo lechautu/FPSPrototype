@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 54dd9cb5740188a488b8baebbf19207c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 21187
+  packageName: Realistic FPS Pack ( Muzzleflash/Impacts)
+  packageVersion: 1.2
+  assetPath: Assets/Assets_FPS_Effects/ParticleSystems/Impacts/Stone_BulletImpact.prefab
+  uploadId: 39777

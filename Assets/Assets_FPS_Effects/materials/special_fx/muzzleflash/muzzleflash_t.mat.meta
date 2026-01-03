@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: be0a6ca29594a77438a27d602c463e44
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 21187
+  packageName: Realistic FPS Pack ( Muzzleflash/Impacts)
+  packageVersion: 1.2
+  assetPath: Assets/Assets_FPS_Effects/materials/special_fx/muzzleflash/muzzleflash_t.mat
+  uploadId: 39777

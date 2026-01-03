@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 58c9074ddd260e34f8746edc609e7113
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 21187
+  packageName: Realistic FPS Pack ( Muzzleflash/Impacts)
+  packageVersion: 1.2
+  assetPath: Assets/Assets_FPS_Effects/ParticleSystems/Impacts/Decals/Decal_Brick.prefab
+  uploadId: 39777

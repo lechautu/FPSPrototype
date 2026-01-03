@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b01a4fd0eafee714ebd3f82dd9bc60b5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 21187
+  packageName: Realistic FPS Pack ( Muzzleflash/Impacts)
+  packageVersion: 1.2
+  assetPath: Assets/Assets_FPS_Effects/materials/special_fx/smoke/smoke_trail-1.mat
+  uploadId: 39777

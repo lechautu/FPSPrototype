@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 59826569f83d1324b8e67111f6400081
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 21187
+  packageName: Realistic FPS Pack ( Muzzleflash/Impacts)
+  packageVersion: 1.2
+  assetPath: Assets/Assets_FPS_Effects/materials/special_fx/sparks/sparks-5.mat
+  uploadId: 39777

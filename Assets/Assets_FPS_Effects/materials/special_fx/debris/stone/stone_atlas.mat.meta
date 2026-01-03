@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1b309223ac4ff1047abbac6457f6981e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 21187
+  packageName: Realistic FPS Pack ( Muzzleflash/Impacts)
+  packageVersion: 1.2
+  assetPath: Assets/Assets_FPS_Effects/materials/special_fx/debris/stone/stone_atlas.mat
+  uploadId: 39777

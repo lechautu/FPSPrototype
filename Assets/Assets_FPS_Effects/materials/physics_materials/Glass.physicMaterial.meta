@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: be5cc21d3c04f42408517d0f7d170532
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 21187
+  packageName: Realistic FPS Pack ( Muzzleflash/Impacts)
+  packageVersion: 1.2
+  assetPath: Assets/Assets_FPS_Effects/materials/physics_materials/Glass.physicMaterial
+  uploadId: 39777

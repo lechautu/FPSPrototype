@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d38508ac18e0a9a439cfd3a9a5c213ba
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 21187
+  packageName: Realistic FPS Pack ( Muzzleflash/Impacts)
+  packageVersion: 1.2
+  assetPath: Assets/Assets_FPS_Effects/Scripts/FPS_Effects/GlobalDefines.cs
+  uploadId: 39777

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f74bfc9a23e490946bee4c4a83ec0c10
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 21187
+  packageName: Realistic FPS Pack ( Muzzleflash/Impacts)
+  packageVersion: 1.2
+  assetPath: Assets/Assets_FPS_Effects/ParticleSystems/WeaponFX/Thirdperson/MuzzleFlashCross.prefab
+  uploadId: 39777

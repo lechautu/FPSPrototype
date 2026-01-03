@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b70308d826d47d4498696ec5cb66ae68
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 21187
+  packageName: Realistic FPS Pack ( Muzzleflash/Impacts)
+  packageVersion: 1.2
+  assetPath: Assets/Assets_FPS_Effects/ParticleSystems/Impacts/Decals/Decal_Wood.prefab
+  uploadId: 39777

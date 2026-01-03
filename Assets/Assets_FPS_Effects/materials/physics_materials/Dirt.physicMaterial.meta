@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c0949381137107b459607cc4e68dd690
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 21187
+  packageName: Realistic FPS Pack ( Muzzleflash/Impacts)
+  packageVersion: 1.2
+  assetPath: Assets/Assets_FPS_Effects/materials/physics_materials/Dirt.physicMaterial
+  uploadId: 39777
